@@ -1,0 +1,15 @@
+.conatiner{
+    background-image: url('../../../assets/images/assessment-1.jpg');
+    height: 689px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.conatiner h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    top: 50%;
+    left: 35%;
+    position: absolute;
+}
