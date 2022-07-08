@@ -1,0 +1,50 @@
+<h1 mat-dialog-title>Add Employee</h1>
+<!-- <h2>Employee Name </h2> -->
+ <form [formGroup]="productForm">
+<p>
+<mat-form-field appearance="outline">
+    <mat-label>Employee Name</mat-label>
+    <input formControlName="EmployeeName" matInput placeholder="Enter Name">
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Designation</mat-label>
+    <mat-select formControlName="EnterDesignation" placeholder="select Designation">
+      <mat-option value="SD 1">SD 1</mat-option>
+      <mat-option value="SD 2">SD 2</mat-option>
+      <mat-option value="SD 3">SD 3</mat-option>
+      </mat-select>
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Department</mat-label>
+    <mat-select formControlName="EnterDepartment" placeholder="select Department">
+      <mat-option value="Passport">Passport</mat-option>
+      <mat-option value="DT">DT</mat-option>
+      <mat-option value="Catalyst">Catalyst</mat-option>
+      </mat-select>
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Joining date </mat-label>
+    <input formControlName="Joiningdate" matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</p>
+
+    <label for="" >Select Gender : </label><br>
+    <mat-radio-group formControlName="genderList">
+      <mat-radio-button *ngFor="let gen of genderList" [value]="gen">
+       {{gen}}
+      </mat-radio-button>
+    </mat-radio-group>
+  </form>
+<div mat-dialog-action [align]="'end'">
+<button mat-raised-button color="primary" (click)="addEmployee()" >Save</button> 
+<button style="margin-left: 8px;" mat-raised-button color="warn" mat-dialog-close >close</button>   
+</div>
