@@ -1,0 +1,41 @@
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  
+    
+    <ng-container matColumnDef="EmployeeName">
+      <th mat-header-cell *matHeaderCellDef> EmployeeName </th>
+      <td mat-cell *matCellDef="let element"> {{element.EmployeeName}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="EnterDesignation">
+        <th mat-header-cell *matHeaderCellDef> EnterDesignation </th>
+        <td mat-cell *matCellDef="let element"> {{element.EnterDesignation}} </td>
+      </ng-container>
+  
+    <ng-container matColumnDef="EnterDepartment">
+      <th mat-header-cell *matHeaderCellDef> EnterDepartment </th>
+      <td mat-cell *matCellDef="let element"> {{element.EnterDepartment}} </td>
+    </ng-container>
+  
+    
+    <ng-container matColumnDef="Joiningdate">
+      <th mat-header-cell *matHeaderCellDef> Joiningdate </th>
+      <td mat-cell *matCellDef="let element"> {{element.Joiningdate}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="genderList">
+        <th mat-header-cell *matHeaderCellDef> genderList </th>
+        <td mat-cell *matCellDef="let element"> {{element.genderList}} </td>
+      </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+  showFirstLastButtons 
+  aria-label="Select page of periodic elements">
+</mat-paginator>
+  
+  
