@@ -1,0 +1,34 @@
+/* .img-fluid{
+    height: 690px;
+    margin-top: 60px;
+    margin-left: -120px;
+} */
+
+.container{
+    background-image: url('../../../assets/images/contactus.jpg');
+    height: 750px;
+    background-position: center top;
+    background-size: cover;
+    
+}
+.container h1{
+    
+    color: #e500a3;
+    font-size: 50px;
+    font-weight: bold;
+    top:15%;
+    left: 65%;
+    position:absolute;
+}
+
+.container p{
+    color: #3d259b;
+    font-size: 18px;
+    top:27%;
+    left: 65%;
+    position:absolute; 
+}
+
+.example-card {
+    max-width: 500px;
+  }

@@ -1,0 +1,139 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidebar mode="side" opened>
+        <!-- sidenav -->
+        <div class="user">
+            <img  [src]="Adminimg" class="img-fluid">
+            <h4>Admin </h4>
+            <p class="mail">admin@gmail.com</p>
+        </div>
+        <div class="menu">
+            <div class="menu-head">
+                <span>DASHBOARD</span>
+                <hr>
+            </div>
+           <div class="menu-item">
+               <button mat-button class="menu-button">
+                 <mat-icon>home</mat-icon>
+                 <span>Home</span>
+               </button>
+               <button mat-button class="menu-button">
+                 <mat-icon>person_pin</mat-icon>
+                 <span routerLink="/profile">My Profile</span>
+               </button>
+               <button mat-button class="menu-button">
+                 <mat-icon>how_to_reg</mat-icon>
+                 <span routerLink="/registerUser">Registered Users </span>
+               </button>
+               <button mat-button class="menu-button">
+                 <mat-icon>book</mat-icon>
+                 <span routerLink="/booklist">List of Books</span>
+               </button>
+               <button mat-button class="menu-button">
+                 <mat-icon>library_books</mat-icon>
+                 <span routerLink="/issuedbooks">Issued Books</span>
+               </button>
+               <button mat-button class="menu-button">
+                 <mat-icon>category</mat-icon>
+                 <span routerLink="/category">Category</span>
+               </button>
+               <button mat-button class="menu-button">
+                 <mat-icon>queue_play_next</mat-icon>
+                 <span routerLink="/requestbooks">Books Requested</span>
+               </button>
+               
+        </div>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="content">
+        <div class="toolbar">
+            <mat-toolbar>
+                <mat-icon (click)="sidebar.toggle()">menu</mat-icon>
+                <div class="box">
+                <button mat-icon-button>
+                    <mat-icon>notifications_nones</mat-icon>
+                </button>
+                <button mat-icon-button>
+                    <mat-icon>exit_to_app</mat-icon>
+                </button>
+            </div>
+            </mat-toolbar>
+        </div>
+      
+        
+          <div class="Card"> 
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>My Profile</mat-card-title>&nbsp;
+                <mat-icon class="icons">account_box</mat-icon>
+              </mat-card-header>
+              <mat-card-actions>
+                <button mat-button routerLink="/profile">Click to view profile</button>
+              </mat-card-actions>
+            </mat-card>
+                 
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>Registered users</mat-card-title>&nbsp;
+                <mat-icon class="icons">how_to_reg</mat-icon>
+              </mat-card-header>
+              <mat-card-actions>
+                <button mat-button routerLink="/registerUser">Click to view registered users</button>
+              </mat-card-actions>
+            </mat-card>
+        
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>List of Books</mat-card-title>&nbsp;
+                <mat-icon class="icons">book</mat-icon> 
+              </mat-card-header>
+            <mat-card-actions>
+              <button mat-button routerLink="/booklist" >Click to view List of Books </button>
+            </mat-card-actions>
+            </mat-card>
+          </div>
+          
+          <div class="Card">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>Issued book</mat-card-title>&nbsp;
+                <mat-icon class="icons">library_books</mat-icon>
+              </mat-card-header>
+              <mat-card-actions>
+                <button mat-button routerLink="/issuedbooks">Click to view issued books</button>
+              </mat-card-actions>
+            </mat-card>
+          
+
+                      
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>Category</mat-card-title>&nbsp;
+                <mat-icon class="icons">category</mat-icon>
+              </mat-card-header>
+              <mat-card-actions>
+                <button mat-button routerLink="/category">Click to view Category of books</button>
+              </mat-card-actions>
+            </mat-card>
+          
+        
+                        
+            <mat-card class="example-card">
+              <mat-card-header>
+                <mat-card-title>Book Requested</mat-card-title>&nbsp;
+                <mat-icon class="icons">queue_play_next</mat-icon>
+              </mat-card-header>
+              <mat-card-actions>
+                <button mat-button  routerLink="/requestbooks">Click to view requested books</button>
+              </mat-card-actions>
+            </mat-card>
+          
+        
+        </div>
+      </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+<router-outlet></router-outlet>
+
+
+

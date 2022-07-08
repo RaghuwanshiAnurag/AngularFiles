@@ -1,0 +1,48 @@
+<mat-card>
+    <mat-card-content>
+        <div class="header">
+            <mat-card-title>Sign-in </mat-card-title>
+        </div>
+        <form (ngSubmit)="onLogin()" name="loginForm" [formGroup]="loginForm">
+            <div class="email-input">
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>
+                        <mat-icon> email</mat-icon> Email
+                    </mat-label>
+                    <input formControlName="email" matInput placeholder="Enter email address" required />
+                    <mat-error *ngIf="!loginForm.controls['email'].valid">
+                        Email is required
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+            <div>
+                <mat-form-field class="full-width" appearance="outline">
+                    <mat-label>
+                        <mat-icon>lock</mat-icon> Password
+                    </mat-label>
+                    <input formControlName="password" matInput [type]=" hide ? 'password' : 'text'" required />
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide Password'"
+                        [attr.aria-pressed]="hide">
+                        <mat-icon>
+                            {{hide ? 'visibility_off' : 'visibility'}}
+                        </mat-icon>
+                    </button>
+                    <mat-error *ngIf="!loginForm.controls['password'].valid">
+                        Password is required
+                    </mat-error>
+                </mat-form-field>
+                <span>
+                    <a class="text-link" class="aLink" routerLink=" ">Forgot Password?</a>
+                </span>
+            </div>
+            <br>
+            <p class="text">
+                <button class="reg_btn btn btn-lg btn-primary mb-1" mat-flat-button>login</button>
+        </form>
+        <!-- 
+            <div class="button-row">
+                <p>Create New Account</p>
+              </div>  --->
+    </mat-card-content>
+</mat-card>

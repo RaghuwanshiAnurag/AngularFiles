@@ -1,0 +1,28 @@
+<div>
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>book</mat-icon>
+    </button>
+    <span>Book List</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button color="example-icon" aria-label="Example icon button with a home icon">
+      <mat-icon>add</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>dashboard</mat-icon>
+    </button>
+  </mat-toolbar>
+</div>
+
+<table class="tbale table-bordered">
+  <thead>
+    <tr *ngFor="let item of booklist">
+      <th>{{item.id}}</th>
+      <th>{{item.Name}}</th>
+      <th>category</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+</table>
+
+ <router-outlet></router-outlet>

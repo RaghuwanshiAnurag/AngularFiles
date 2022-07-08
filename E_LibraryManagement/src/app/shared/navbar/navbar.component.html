@@ -1,0 +1,21 @@
+
+<mat-toolbar color="primary-grey">
+    <img  id="logo" [src]="myLogo" class="img-fluid">
+    <!-- <span>DIGI-LIBRARY</span> -->
+    <span class="example-spacer">
+    </span>
+    <button mat-button matTooltip="Home"  routerLink="/"><mat-icon>home</mat-icon></button>
+    <button mat-button matTooltip="Books" routerLink="/books"><mat-icon>book</mat-icon></button>
+    <button mat-button matTooltip="Contact-us" routerLink="/contact"><mat-icon>call</mat-icon></button>
+    <button mat-button matTooltip="About-us" routerLink="/about"><mat-icon>info</mat-icon></button>
+
+
+    <button mat-button matTooltip="Sign-up" color="primary-black"  (click)="onSubmit()"><mat-icon>input</mat-icon></button>&nbsp;&nbsp;
+    <button mat-button matTooltip="Sign-in" color="primary-black"  (click)="onSignin()"><mat-icon>person</mat-icon></button>&nbsp;&nbsp;
+   </mat-toolbar>
+    
+   <div class="container">
+  
+   </div>
+<app-home></app-home>
+   <router-outlet></router-outlet>

@@ -1,0 +1,40 @@
+{
+    "BookList":[        
+       {
+        "id":1,
+        "Name":"The Guarded One",
+        "category":"Action and Adventure",
+        "Quantity":"120"
+       },
+       {
+        "id":2,
+        "Name":"Fifty Shades of Grey",
+        "category":"Romance",
+        "Quantity":"72"
+       },
+       {
+        "id":3,
+        "Name":"THE HUNGER GAMES",
+        "category":"ScienceFriction",
+        "Quantity":"155"
+       },
+       {
+        "id":4,
+        "Name":"Harry Potter and the Sorcerer's Stone",
+        "category":"Action and Adventure",
+        "Quantity":"105"
+       },
+       {
+        "id":5,
+        "Name":"You Deserve Each Other",
+        "category":"Romance",
+        "Quantity":"48"
+       },
+       {
+        "id":3,
+        "Name":"THE MARTIAN",
+        "category":"ScienceFriction",
+        "Quantity":"23"
+       }
+    ]
+}

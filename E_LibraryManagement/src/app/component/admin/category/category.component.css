@@ -1,0 +1,19 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+table {
+    width: 100%;
+}
+
+.example-card {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.container{
+    display:flex;
+    gap: 5%;
+}
+
+  
