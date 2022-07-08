@@ -1,0 +1,83 @@
+{
+    "books": [
+      {
+        "bookName": "The Guarded One",
+        "category": "Action & Adventure",
+        "authore": "Brittney Sahin",
+        "quantity": 4,
+        "id": 1
+      },
+      {
+        "bookName": "Harry Potter and the Sorcerer's Stone",
+        "category": "Action & Adventure",
+        "authore": "J.K. Rowling",
+        "quantity": 4,
+        "id": 2
+      },
+      {
+        "bookName": "Star Wars",
+        "category": "Action & Adventure",
+        "authore": "Adam Christopher",
+        "quantity": 4,
+        "id": 3
+      },
+      {
+        "bookName": "Pirate Alley",
+        "category": "Sea Adventures",
+        "authore": "Stephen Coonts",
+        "quantity": 5,
+        "id": 4
+      },
+      {
+        "bookName": "Life of Pi",
+        "category": "Sea Adventures",
+        "authore": "Yann Martel",
+        "quantity": 7,
+        "id": 5
+      },
+      {
+        "bookName": "Atomic Habits",
+        "category": "Business & Money",
+        "authore": "James Clear",
+        "quantity": 7,
+        "id": 6
+      },
+      {
+        "bookName": "The Laws of Power",
+        "category": "Business & Money",
+        "authore": "Robert Greene",
+        "quantity": 8,
+        "id": 7
+      }
+    ],
+    "requestlist": [
+      {
+        "id": 1,
+        "bookName": "The Guarded One",
+        "category": "Action & Adventure",
+        "authore": "Brittney Sahin",
+        "quantity": 4
+      },
+      {
+        "id": 2,
+        "bookName": "Harry Potter and the Sorcerer's Stone",
+        "category": "Action & Adventure",
+        "authore": "J.K. Rowling",
+        "quantity": 4
+      },
+      {
+        "id": 4,
+        "bookName": "Pirate Alley",
+        "category": "Sea Adventures",
+        "authore": "Stephen Coonts",
+        "quantity": 5
+      },
+      {
+        "id": 6,
+        "bookName": "Atomic Habits",
+        "category": "Business & Money",
+        "authore": "James Clear",
+        "quantity": 7
+      }
+    ]
+  }
