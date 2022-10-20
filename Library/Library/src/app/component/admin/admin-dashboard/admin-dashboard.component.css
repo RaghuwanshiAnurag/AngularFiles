@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.mat-sidenav-container{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+.mat-sidenav{
+    background-color: #000;
+    width: 230px;
+    height: 100%;
+}
+
+.mat-icon{
+    color: #8997ac;
+    margin-left: 15px;
+    overflow:visible;
+}
+
+.mat-toolbar{
+    justify-content: space-between;
+}
+
+
+.user{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.mail{
+    margin-top: -10px;
+    color: #697d95;
+}
+
+.img-fluid{
+    margin-top: 16px;
+    width: 120px;
+    height: 120px;
+}
+
+h4{
+    color: aliceblue;
+}
+
+.menu-head{
+   color: #466be0; 
+   font-weight: 900;
+   margin-left: 60px;
+   margin-bottom: 20px;
+
+}
+
+.menu-button{
+    display: block;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.menu-button span{
+    margin-left: 15px;
+    color: white;
+ }
+
+ .example-card {
+    min-width: 320px;
+    margin-bottom: 8px;
+}
+
+.Card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  
+}
+
+mat-sidenav-container{
+    background-image: url('../../../../assets/images/Admin_bg.webp');
+}
+
+.icons{
+  font-size: 2.5rem;
+}

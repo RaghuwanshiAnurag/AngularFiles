@@ -1,0 +1,15 @@
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\bin\Debug\net6.0\BankingAssigment.exe
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\bin\Debug\net6.0\BankingAssigment.deps.json
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\bin\Debug\net6.0\BankingAssigment.runtimeconfig.json
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\bin\Debug\net6.0\BankingAssigment.dll
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\bin\Debug\net6.0\BankingAssigment.pdb
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.csproj.AssemblyReference.cache
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.AssemblyInfoInputs.cache
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.AssemblyInfo.cs
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.csproj.CoreCompileInputs.cache
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.dll
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\refint\BankingAssigment.dll
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.pdb
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\BankingAssigment.genruntimeconfig.cache
+C:\Users\anurag.raghuwanshi\source\repos\BankingAssigment\BankingAssigment\obj\Debug\net6.0\ref\BankingAssigment.dll

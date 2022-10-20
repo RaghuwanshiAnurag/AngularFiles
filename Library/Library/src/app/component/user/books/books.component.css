@@ -1,0 +1,36 @@
+
+.example-container {
+    width: 99.5%;
+    height: 90%;
+    margin: 5px;
+    border: 1px solid #555;
+  }
+
+.mat-drawer{
+    width: 200px;
+}
+
+h1{
+ text-align: center;
+ background: border-box lightslategray;
+}
+
+h2{
+    color: whitesmoke ;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+mat-drawer{
+    text-align: center;
+    background-image: url("../../../../assets/images/category_bg.jpg");
+    background-size: cover;
+}
+
+.matStyle{
+    width: 15rem;
+    height: 18rem;
+    margin: 5px;
+}
+

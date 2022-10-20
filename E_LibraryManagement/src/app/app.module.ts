@@ -5,10 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { HomeComponent } from './component/home/home.component';
-import { ContactComponent } from './component/contact/contact.component';
-import { AboutComponent } from './component/about/about.component';
-import { BooksComponent } from './component/books/books.component';
+import { HomeComponent } from './component/user/home/home.component';
+import { ContactComponent } from './component/user/contact/contact.component';
+import { AboutComponent } from './component/user/about/about.component';
+import { BooksComponent } from './component/user/books/books.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { AdminDashboardComponent } from './component/admin/admin-dashboard/admin-dashboard.component';
@@ -21,6 +21,8 @@ import { BookRequestComponent } from './component/admin/book-request/book-reques
 import { LoginComponent } from './shared/login/login.component';
 import { RegistrationComponent } from './shared/registration/registration.component';
 import { ImportMaterialModule } from './material/import-material/import-material.module';
+import { ToastrModule } from 'ngx-toastr';
+
 
 
 @NgModule({
@@ -40,7 +42,8 @@ import { ImportMaterialModule } from './material/import-material/import-material
     CategoryComponent,
     BookRequestComponent,
     LoginComponent,
-    RegistrationComponent,
+    RegistrationComponent
+    
 
     
   ],
@@ -48,8 +51,8 @@ import { ImportMaterialModule } from './material/import-material/import-material
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ImportMaterialModule
-    
+    ImportMaterialModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
